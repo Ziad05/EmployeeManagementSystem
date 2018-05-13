@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#000"
+    tools:context="com.example.dell.employeemanagementsystem.ViewAllItemActivity">
+
+    <EditText
+        android:id="@+id/edittextSearch"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint="Search here"
+        android:background="#fff" />
+    <ListView
+        android:id="@+id/listViewAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="10dp"
+        android:background="#B9B9B9"
+        android:layout_below="@+id/edittextSearch">
+
+    </ListView>
+
+</RelativeLayout>

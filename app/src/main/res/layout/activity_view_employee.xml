@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:padding="10dp"
+    tools:context="com.example.dell.employeemanagementsystem.ViewEmployeeActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Employee Name"
+        android:id="@+id/textView"
+        android:textColor="#fff"/>
+
+    <EditText
+        android:id="@+id/editTextupdateName"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:background="#fff"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/textViewdesg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editTextupdateName"
+        android:layout_marginTop="15dp"
+        android:text="Employee Designation"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/editTextupdateDesg"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textViewdesg"
+        android:background="#fff" />
+
+    <TextView
+        android:id="@+id/textViewsal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editTextupdateDesg"
+        android:layout_marginTop="13dp"
+        android:text="Employee Salary"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/editTextupdateSalary"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textViewsal"
+        android:background="#fff" />
+    <TextView
+        android:id="@+id/textViewid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Employee ID"
+        android:textColor="#fff"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/editTextupdateSalary"/>
+    <EditText
+        android:id="@+id/editTextupdateId"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#fff"
+        android:layout_below="@+id/textViewid"
+        />
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editTextupdateId"
+        android:layout_marginTop="24dp"
+        android:text="Update Employee"/>
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/buttonUpdate"
+        android:layout_marginTop="35dp"
+        android:text="Delete Employee" />
+
+</RelativeLayout>
